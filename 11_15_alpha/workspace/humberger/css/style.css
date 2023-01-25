@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gainsboro;
+  font-family: 'Passion Conflict';
+}
+
+#contents {
+  margin: 100px auto;
+  width: 450px;
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+input {
+  width: 250px;
+  height: 40px;
+  margin: 10px 0;
+  border: 2px solid ghostwhite;
+  outline: 0;
+  padding-left:10px;
+  border-radius: 10px;
+}
+form {
+  padding-left:10px;
+}
+
+a {
+  font-size: small;
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 5px;
+  text-decoration: none;
+  color:#12a0a0;
+}
+a:hover {
+ border-bottom: 1px solid #12a0a0;
+}
+
+
+.button {
+  border-radius:10px ;
+}
+
+.button:hover{
+  background-color:#12a0a0 ;
+  color:gainsboro;
+}
+
+/*roomMemberDelete.php tableエリア*/
+.table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,td {
+  border: 1px solid aliceblue;
+  width: 110px;
+  height: 40px;
+}
+th {
+  background-color: #6edddd;
+  color: white;
+}
+td {
+  color: #067979;
+}
+button.button {
+  width: 50px;
+  padding: 2px 0;
+  border: none;
+  border-radius: 5px;
+}
+/*ユーザー名変更*/
+ .realName {
+  color: #075f5f;
+  margin: 15px 0;
+ }
+
+ /*createRoom.php部屋作成ページ*/
+ .write {
+  font-size: 5px;
+ }

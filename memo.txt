@@ -1,0 +1,36 @@
+<!--
+<form action="process/post_topic.php" method="post">
+
+    <div class="">
+        <div class="card_l">
+            <img src="img/discussion_icon.svg" width="100px">
+        </div>
+        <div class="card_r">
+            <div class="cardHead">
+                <ul>
+                    <li><span class="user_name"><?php echo $_SESSION['user_name']; ?></span></li>
+                    <li>
+                    <span id="review_score">
+                        <span class="rev_star" onclick="store_score()">☆</span>
+                        <span class="rev_star" onclick="store_score()">☆</span>
+                        <span class="rev_star" onclick="store_score()">☆</span>
+                        <span class="rev_star" onclick="store_score()">☆</span>
+                        <span class="rev_star" onclick="store_score()">☆</span>
+                        <input type="number" min="0" max="5" name="importance" id="tp_star">
+                    </span>
+                    </li>
+                </ul><button onclick="resolved(`tp_17`);">解決！</button>
+                    </div>
+                    <div class="cardBody">
+                        <span>てすてす</span>
+                    </div>
+                    <div class="cardFoot">
+                        <ul>
+                            <li><span>2022-11-16</span></li>
+                            <li>タグ：<span></span></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+</form>
+-->

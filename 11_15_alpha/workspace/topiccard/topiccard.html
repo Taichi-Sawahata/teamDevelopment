@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tpcard.css">
+    <script src="com_funk.js"></script>
+    <title>topicCard</title>
+</head>
+<body>
+    <div class="space_disp">
+    
+    <section class="tpContainer">
+        <div class="tpCard">
+            <div class="cardHead">
+                <ul>
+                    <li>(id)<span></span></li>
+                    <li>投稿者：<span></span></li>
+                    <li>重要度：<span></span></li>
+                    <li>モード：<span></span></li>
+                </ul>
+                <button class="hidden">解決！</button>
+            </div>
+            <div class="cardBody">
+                <span>(ここに内容が入ります)</span>
+            </div>
+            <div class="cardFoot">
+                <ul>
+                    <li>(時間)<span></span></li>
+                    <li>タグ：<span>(ここにタグが入ります)</span></li>
+                </ul>
+            </div>
+        </div><!-- tpCard -->
+        <div class="tpComment com_tpxx">
+            <div class="comRows">
+                <div class="comRow hidden">
+                    <div class="comValue"><span>(コメントがここに入ります)</span></div>
+                    <div class="comData">
+                        <ul>
+                            <li>ユーザ：<span></span></li>
+                            <li>時間：<span></span></li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="comRow" data-tag="last">
+                    <div class="comValue"><span>(コメントがここに入ります)</span></div>
+                    <div class="comData">
+                        <ul>
+                            <li>ユーザ：<span></span></li>
+                            <li>時間：<span></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- comRows -->
+                <div class="comBtn"><!-- デフォルトで表示・クリックすると書き換え -->
+                    <p onclick="toggle_comment('this.tpic_id');">もっと見る</p>
+                    <p class="hidden">コメント欄を畳む</p>
+                </div>
+                <div class="comForm hidden">
+                    <form action="" method="">
+                        <input type="hidden" name="usr">
+                        <textarea name="value"></textarea>
+                        <p><input type="submit" value="コメントを送信"></p>
+                    </form>
+                </div>
+            
+        </div><!-- tpComment -->
+    </section>
+    </div>
+</body>
+</html>

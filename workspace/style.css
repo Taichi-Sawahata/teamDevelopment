@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #00a4d3;
+}
+
+header{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0 2px 3px #DDD;
+}
+
+.container{
+    background-color: #B0D8C8;
+    width: 100%;
+    height: 400px;
+    margin: 0 0 1rem;
+    padding: 4rem 1rem 5rem;
+    text-align: center;
+}
+
+/* .container-text span{
+    color: #F06060 ;
+} */
+
+.explain{
+    margin-top: 3rem;
+}
+
+
+
+.content{
+    padding: 0 1rem;
+}
+
+.container-text{
+    margin: 2rem 0 1rem;
+    color: #fff;
+}
+
+
+h1{
+    color: #fff;
+    font-weight: normal;
+}
+h2 img{
+    max-height:40px;
+}
+h3{
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color:#4D4D4D;
+}
+
+
+
+.mark{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #1CBAD6;
+    -webkit-border-radius: 100% ;
+    border-radius: 100% ;
+    -moz-border-radius: 100% ;
+    border-radius: 100%;
+    color: #1CBAD6;
+    background: transparent;
+    line-height: 69px;
+    font-size: 30px;
+    font-weight: normal;
+    display: block;
+    margin: 3rem auto;
+}
+
+.check{
+    width: 10px;
+    height: 5px;
+    border-left: 3px solid #1CBAD6;
+    border-bottom: 3px solid #1CBAD6;
+    transform: translateX(18px) translateY(20px) rotate(-45deg) ;
+}
+
+
+
+.explain-text p{
+    font-size: 0.85rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+.explain-text a:hover{
+    opacity: .5;
+}
+
+.btn{
+    background: #12a0a0;
+    border: none;
+    border-radius: 6rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.btn a {
+    color: #fff;
+    display: block;
+}
+
+.login{
+    margin: 0 auto;
+    border: none;
+    width: 8rem;
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #cccccc;
+    border-radius: 50px;
+    padding: 0.3rem 0;
+}
+
+.login a{
+    color: #333;
+    display: block;
+}
+
+.login:hover{
+    opacity: .8;
+}
+
+
+footer{
+    border-top:1px solid#ccc;
+    padding: 1rem 0.5rem 1.2rem;
+    margin-top: 5rem;
+}
+
+
+footer p{
+    color: #333;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+header {
+    padding-bottom:0;
+}
